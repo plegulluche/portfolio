@@ -1,5 +1,8 @@
+import React from 'react';
 import './index.scss';
 
-const Portfolio = () => 'hello';
+const Portfolio = () => {
+  return <div className="container portfolio-page"></div>;
+};
 
 export default Portfolio;
