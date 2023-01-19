@@ -7,12 +7,17 @@ This is my first solo React.js project, i decided to make a portfolio to diplay 
 #### Main features:
 
 Finish the Portfolio component.
+
 Adding some projects to the portfolio.
+
 Adding a better logo with drawing animation.
+
+Make it responsive.
 
 #### Styling:
 
 Removing tags appearing on pages.
+
 Resizing the nav bar.
 
 # Getting Started with Create React App
