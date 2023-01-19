@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import Loader from 'react-loaders';
+import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import './index.scss';
@@ -87,6 +88,27 @@ const Contact = () => {
               </ul>
             </form>
           </div>
+        </div>
+        <div className="info-map">
+          Pierre Le Gulluche
+          <br />
+          Paris, France
+          <br />
+          <span>plegulluche@gmail.com</span>
+        </div>
+        <div className="map-wrap">
+          <MapContainer
+            center={[48.85361351928387, 2.3616107607144774]}
+            zoom={12}
+          >
+            <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+            <Marker position={[48.85361351928387, 2.3616107607144774]}>
+              <Popup>
+                Pierre habites ici, vous pourrez me croiser dans les bars a vin
+                et les brasseries du quartier :)
+              </Popup>
+            </Marker>
+          </MapContainer>
         </div>
       </div>
       <Loader type="pacman" />
