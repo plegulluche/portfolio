@@ -64,6 +64,11 @@ const Home = () => {
             />
           </h1>
           <h2>Backend developer, apprentice Fullstack developer</h2>
+          <br />
+          <h2>
+            SITE UNDER CONSTRUCTION, IMPROVEMENTS WILL BE DONE IN A FEW DAYS
+            STAY TUNED !
+          </h2>
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>
