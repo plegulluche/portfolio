@@ -20,6 +20,10 @@ Removing tags appearing on pages.
 
 Resizing the nav bar.
 
+#### Fix:
+
+Sender not showing when receiving email.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
