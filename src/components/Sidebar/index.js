@@ -1,15 +1,15 @@
-import { Link, NavLink } from 'react-router-dom';
-import './index.scss';
-import L from '../../assets/images/L.png';
-import LogoName from '../../assets/images/Logo_name.png';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Link, NavLink } from "react-router-dom";
+import "./index.scss";
+import L from "../../assets/images/L.png";
+import LogoName from "../../assets/images/Logo_name.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faBook,
   faEnvelope,
   faHome,
   faUser,
-} from '@fortawesome/free-solid-svg-icons';
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+} from "@fortawesome/free-solid-svg-icons";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 const Sidebar = () => (
   <div className="nav-bar">
@@ -32,16 +32,16 @@ const Sidebar = () => (
       <NavLink
         exact="true"
         activeclassname="active"
-        className="contact-link"
-        to="/contact"
+        className="portfolio-link"
+        to="/portfolio"
       >
         <FontAwesomeIcon icon={faBook} color="#4d4d4e" />
       </NavLink>
       <NavLink
         exact="true"
         activeclassname="active"
-        className="portfolio-link"
-        to="/portfolio"
+        className="contact-link"
+        to="/contact"
       >
         <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
       </NavLink>
