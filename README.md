@@ -10,6 +10,8 @@ Finish the Portfolio component.
 
 Adding some projects to the portfolio.
 
+Filling placeholders with real text.
+
 Adding a better logo with drawing animation.
 
 Make it responsive.
