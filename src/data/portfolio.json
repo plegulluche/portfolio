@@ -7,15 +7,15 @@
             "url": "https://google.com"
         },
         {
-            "cover": "/portfolio/job1/react.png",
-            "title": "Job1",
+            "cover": "/portfolio/job2/python.png",
+            "title": "Job2",
             "description": "First job",
             "url": "https://google.com"
         },
         {
-            "cover": "/portfolio/job1/react.png",
-            "title": "Job1",
-            "description": "First job",
+            "cover": "/portfolio/job3/node_express.png",
+            "title": "Job3",
+            "description": "Look at our Node.js.express , React.js, Mongodb project that we made for a school project",
             "url": "https://google.com"
         }
 

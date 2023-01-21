@@ -3,6 +3,7 @@ import Loader from "react-loaders";
 import AnimatedLetters from "../AnimatedLetters";
 import "./index.scss";
 import portfolioData from "../../data/portfolio.json";
+import renderPortfolio from "./Renderportfolio";
 
 const Portfolio = () => {
   const [letterClass, setLetterClass] = useState("text-animate");
@@ -18,24 +19,6 @@ const Portfolio = () => {
       clearTimeout(timer);
     };
   });
-
-  const renderPortfolio = (portfolio) => {
-    return (
-      <div className="images-container">
-        {portfolio.map((port, idx) => {
-          return (
-            <div className="image-box" key={idx}>
-              <img
-                src={port.cover}
-                className="portfolio-image"
-                alt="portfolio"
-              />
-            </div>
-          );
-        })}
-      </div>
-    );
-  };
 
   return (
     <>
